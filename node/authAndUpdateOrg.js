@@ -1,7 +1,7 @@
 var rp = require('request-promise');
 
 const apiKey = '<Put your IBM Cloud API Key here>';
-const orgName = '';
+const orgName = '<Put the org name you would like to update>';
 
 const uaaOptions = {
   url: 'https://iam.cloud.ibm.com/cloudfoundry/login/us-south/oauth/token',
